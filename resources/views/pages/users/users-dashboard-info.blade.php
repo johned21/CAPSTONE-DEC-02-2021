@@ -15,7 +15,7 @@
             
             <div class="container-fluid" id="usersdashboard">
                     
-                <h1 class="mb-4" style="color:green;">Dashboard | 1st Sem AY 2021-2022</h1>
+                <h1 class="mb-4" style="color:green; margin-top:5rem;">Dashboard | 1st Sem AY 2021-2022</h1>
                 <hr>
 
                 @include('items.users-dashboard-personalinfo')

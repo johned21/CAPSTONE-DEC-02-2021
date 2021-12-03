@@ -50,6 +50,7 @@
     <link rel="stylesheet" href="{{ asset('css/stat-overview-style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/sidebar-style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/users-personal-info-style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/users-dashboard-style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/user-detail-info-style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/student-detail-info-style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/teachers-form-style.css') }}">

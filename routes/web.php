@@ -61,6 +61,24 @@ Route::get('/EnrollSubjects', function () {
     return view('pages.admins.enroll-subjects');
 });
 
+Route::get('/dashboard-users', function () {
+    return view('pages.users.users-dashboard');
+});
+
+Route::get('/dashboard-info', function () {
+    return view('pages.users.users-dashboard-info');
+});
+
+
+Route::get('/dashboard-status', function () {
+    return view('pages.users.users-dashboard-status');
+});
+
+Route::get('/dashboard-review-enroll', function () {
+    return view('pages.users.users-dashboard-review-enrollment');
+});
+
+
 
 Route::group(['middleware'=>'auth'], function() {
     

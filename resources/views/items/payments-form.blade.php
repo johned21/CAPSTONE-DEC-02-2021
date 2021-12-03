@@ -78,10 +78,10 @@
         
         <div class="form-group justify-content-between"> 
             <div class="col-md-2 float-end mt-1">
-                <button class="btn btn-primary form-control"><i class="fas fa-check"></i> Finish</button> 
+                <button class="btn btn-primary form-control">Review <i class="fas fa-arrow-right"></i></button> 
             </div>   
             <div class="col-md-2 float-start mt-1">
-                <a href="{{ route('user.enrollment') }}" class="btn btn-danger form-control"><i class="fas fa-arrow-left"></i> Back</a>
+                <a href="{{ route('user.enrollment') }}" class="btn btn-danger form-control"><i class="fas fa-arrow-left"></i> Back to Enrollment</a>
             </div>
         </div>
         
