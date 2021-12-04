@@ -69,9 +69,12 @@ Route::get('/dashboard-info', function () {
     return view('pages.users.users-dashboard-info');
 });
 
+Route::get('/dashboard-status-pending', function () {
+    return view('pages.users.users-dashboard-status-pending');
+});
 
-Route::get('/dashboard-status', function () {
-    return view('pages.users.users-dashboard-status');
+Route::get('/dashboard-status-approved', function () {
+    return view('pages.users.users-dashboard-status-approved');
 });
 
 Route::get('/dashboard-review-enroll', function () {

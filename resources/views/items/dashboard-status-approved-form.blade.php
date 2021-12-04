@@ -20,7 +20,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3 float-end">
-                                <h2 class="status">Status: <span style="color: green">PENDING</span></h2>
+                                <h2 class="status">Status: <span style="color: green">APPROVED</span></h2>
                             </div>
                         </div>
                     </div>

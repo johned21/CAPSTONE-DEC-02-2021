@@ -12,15 +12,16 @@
     <div class="dashboard-content">
         <div class="text">
             
-            <div class="container-fluid" id="usersdashboard">
-                    
-                <h1 class="mb-4" style="color:green;">Dashboard | 1st Sem AY 2021-2022</h1>
-                <hr>
+            <div class="container-fluid">
+                <div class="row">
+                    <hr>
+                    <div class="col-md-12">
 
-                @include('items.users-dashboard-content')
+                        @include('items.dashboard-status-pending-form')
 
+                    </div>
+                </div>
             </div> 
-
         </div>
     </div>
 

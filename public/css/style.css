@@ -12,7 +12,7 @@
     src: url('../fonts/Roboto/RobotoSlab-VariableFont_wght.ttf');
 }
 
-@font-face{
+@font-face {
     font-family: Cinzel;
     src: url('../fonts/Cinzel/Cinzel-VariableFont_wght.ttf');
 }
@@ -27,7 +27,6 @@
     src: url('../fonts/Crete/CreteRound-Regular.ttf');
 }
 
-
 @font-face {
     font-family: Playfair;
     src: url('../fonts/Playfair/PlayfairDisplaySC-Regular.ttf');
@@ -36,11 +35,11 @@
 
 /* Landing Page Design */
 
-.titless{
+.titless {
     text-align: center;
 }
 
-.Landingtitle{
+.Landingtitle {
     font-size: 3.3em;
     z-index: 2 !important;
     margin-top: 17rem;
@@ -54,7 +53,7 @@
     font-weight: bold;
 }
 
-.Landingsubtitle{
+.Landingsubtitle {
     font-size: 1.3em;
     z-index: 2 !important;
     text-align: center;
@@ -66,7 +65,7 @@
     object-fit: cover;
 }
 
-.SY{
+.SY {
     position: relative;
     text-align: center;
     font-size: 20px;
@@ -75,6 +74,7 @@
 
 
 /* site system */
+
 nav {
     position: absolute;
     height: auto;
@@ -114,13 +114,13 @@ nav {
     content: "";
     width: 0%;
     height: 3px;
-    background-color: rgb(70, 1, 1);
+    background-color: rgb(251, 247, 0);
     transition: width 0.4s ease-out;
 }
 
 .box-nav-item-active {
     color: yellow !important;
-    border-bottom: 3px solid rgb(70, 1, 1);
+    border-bottom: 3px solid rgb(251, 247, 0);
     height: 92%;
 }
 
@@ -347,7 +347,7 @@ nav {
     visibility: hidden;
 }
 
-#toast-container > .custom-success { 
+#toast-container>.custom-success {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==") !important;
     background-color: #28a745;
 }
@@ -361,26 +361,30 @@ nav {
     background-color: #d4edda !important;
 }
 
+
 /* forgot password form */
-.forgotpass{
+
+.forgotpass {
     margin-top: 6rem !important;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }
-.forgotpasstitle{
+
+.forgotpasstitle {
     margin-top: 6rem !important;
 }
 
-.forgotpasstitle .regheader h1{
-   font-size: 33px;
+.forgotpasstitle .regheader h1 {
+    font-size: 33px;
 }
+
 
 /* multi-select */
 
-.select2-selection{
-    font-size: 16px !important; 
+.select2-selection {
+    font-size: 16px !important;
 }
 
-.select2-selection__choice{
-    font-size: 16px !important; 
+.select2-selection__choice {
+    font-size: 16px !important;
 }

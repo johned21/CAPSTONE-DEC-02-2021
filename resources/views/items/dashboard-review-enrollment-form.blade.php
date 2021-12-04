@@ -3,13 +3,13 @@
 
     <div class="card-body" id="user-card-body">
         <div class="card-header" id="enrollment-header">
-            <h1>Enrollment Details</h1>
+            <h1>Program</h1>
         </div>
         <div class="info mt-4">
             <div class="row justify-content-center">
                 <div class="col">
                     <div class="row">
-                        <div class="col-md-12 mt-4">
+                        <div class="col-md-12 mt-2">
                             <div class="mb-1">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -56,46 +56,105 @@
                             </div>
                         </div>
                     </div>  
-                    <hr>
-                    <div class="row mt-5">
-                        <h2>Subjects Taken:</h2>
-                        <table class="table table-success table-striped table-hover"> 
-                            <thead>
-                                <tr>
-                                  <th scope="col">#</th>
-                                  <th scope="col">Name</th>
-                                  <th scope="col">Time</th>
-                                </tr>
-                              </thead>
-                            <tbody>
-                                <tr>
-                                  <th scope="row">1</th>
-                                  <td>Math</td>
-                                  <td>8:00 - 9:00AM</td>
-                                </tr>
-                                <tr>
-                                  <th scope="row">2</th>
-                                  <td>English</td>
-                                  <td>9:00 - 10:00AM</td>
-                                </tr>
-                                <tr>
-                                  <th scope="row">3</th>
-                                  <td>Science</td>
-                                  <td>11:00 - 12:00AM</td>
-                                </tr>
-                              </tbody>
-                        </table>
-                    </div>
 
-                    <div class="form-group justify-content-between"> 
-                        <div class="col-md-2 float-end mt-1">
-                            <button class="btn btn-primary form-control"><i class="fas fa-check"></i> Finish</button> 
-                        </div>   
-                        <div class="col-md-2 float-start mt-1">
-                            <a href="{{ route('user.enrollment') }}" class="btn btn-danger form-control"><i class="fas fa-arrow-left"></i> Back to Payments</a>
-                        </div>
-                    </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="card-header" id="enrollment-header">
+            <h1>Documents</h1>
+        </div>
+        <div class="info mt-4">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-md-12 mt-2">
+
+                            <div class="mb-1">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <label for="" class="form-label">Title: <span style="color: green">asdasdasdsad</span></label>
+                                        <div class="col form-group" id="info">
+                                            <label for="level" class="form-label"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <label for="" class="form-label">Remarks: <span style="color: green">Regular Student</span></label>
+                                        <div class="col form-group" id="info">
+                                            <label for="student_type" class="form-label"></label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="mb-1">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <label for="" class="form-label">Submitted Requirements :</label>
+                                        <div class="col form-group mt-2" id="info">
+                                            <img src="{{asset('img/file-img.png')}}" alt="" style="width: 100px; height:120px;">
+                                            <img src="{{asset('img/file-img.png')}}" alt="" style="width: 100px; height:120px;">
+                                            <img src="{{asset('img/file-img.png')}}" alt="" style="width: 100px; height:120px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+        <div class="card-header" id="enrollment-header">
+            <h1>Payments</h1>
+        </div>
+        <div class="info mt-4">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-md-12 mt-2">
+
+                            <div class="mb-1">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <label for="" class="form-label">Payment Channel: <span style="color: green">Palawan Pawnshop</span></label>
+                                        <div class="col form-group" id="info">
+                                            <label for="level" class="form-label"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <label for="" class="form-label">Amount Paid: <span style="color: green">Php5,000</span></label>
+                                        <div class="col form-group" id="info">
+                                            <label for="student_type" class="form-label"></label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="mb-1">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <label for="" class="form-label">Submitted Payments:</label>
+                                        <div class="col form-group mt-2" id="info">
+                                            <img src="{{asset('img/file-img.png')}}" alt="" style="width: 100px; height:120px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="form-group justify-content-between"> 
+            <div class="col-md-2 float-end mt-1">
+                <button class="btn btn-primary form-control"><i class="fas fa-check"></i> Finish</button> 
+            </div>   
+            <div class="col-md-2 float-start mt-1">
+                <a href="{{ route('user.enrollment') }}" class="btn btn-danger form-control"><i class="fas fa-arrow-left"></i> Back to Payments</a>
             </div>
         </div>
     </div>
